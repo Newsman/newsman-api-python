@@ -23,7 +23,8 @@ This Python Client will use only xmlrpclib python module.
 ### Example Code
 
 ```python
-client = newsman.Newsman(user_id, api_key) # you can get your api_key and user_id from My Account -> API
+# you can get your api_key and user_id from My Account -> API
+client = newsman.Newsman(user_id, api_key)
 print client.API_VERSION
 print client.list.all()
 ```
