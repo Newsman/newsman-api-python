@@ -20,4 +20,10 @@ The API exposes XML RPC and REST interfaces.
 
 This Python Client will use only xmlrpclib python module.
 
-### XML RPC
+### Example Code
+
+```python
+client = newsman.Newsman(user_id, api_key) # you can get your api_key and user_id from My Account -> API
+print client.API_VERSION
+print client.list.all()
+```
