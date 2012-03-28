@@ -23,7 +23,7 @@ This Python Client will use only xmlrpclib python module.
 ### Install
 
 ```bash
-# easy_install https://github.com/Newsman/newsman-api-python/zipball/master
+easy_install https://github.com/Newsman/newsman-api-python/zipball/master
 ```
 
 ### Example Code
