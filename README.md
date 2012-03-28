@@ -20,9 +20,17 @@ The API exposes XML RPC and REST interfaces.
 
 This Python Client will use only xmlrpclib python module.
 
+### Install
+
+```bash
+# easy_install https://github.com/Newsman/newsman-api-python/zipball/master
+```
+
 ### Example Code
 
 ```python
+import newsman
+
 # you can get your api_key and user_id from My Account -> API
 client = newsman.Newsman(user_id, api_key)
 print client.API_VERSION
