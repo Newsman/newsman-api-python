@@ -26,7 +26,7 @@ class Newsman:
         
         api_url = "%s/%s/xmlrpc/%s/%s" % (api_url, Newsman.API_VERSION, self.user_id, self.api_key)
         
-        return ServerProxy(api_url)
+        return ServerProxy(api_url, allow_none = True)
     
     def __getattr__(self, name):
         return getattr(self.proxy, name)
