@@ -39,4 +39,10 @@ import newsman
 client = newsman.Newsman(user_id, api_key)
 print(client.API_VERSION)
 print(client.list.all())
+
+# calling client.import.csv is not allowed in Python since import is a reserved keyword
+# thus the hack below is required
+list_id = 1234
+i = getattr(client, "import.csv")
+i(list_id, "email\nnewsman@example.com")
 ```
