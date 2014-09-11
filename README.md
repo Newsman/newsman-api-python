@@ -44,5 +44,5 @@ print(client.list.all())
 # thus the hack below is required
 list_id = 1234
 i = getattr(client, "import.csv")
-i(list_id, "email\nnewsman@example.com")
+i(list_id, None, "email\nnewsman@example.com")
 ```
