@@ -5,7 +5,7 @@ except ImportError:
     
 setup(
       name = "newsman-api-python",
-      version = "1.2",
+      version = "1.2.3",
       description = "Newsman API 1.2 - Python Client",
       author = "Newsman - Catalin Constantin",
       url = "https://github.com/Newsman/newsman-api-python",
