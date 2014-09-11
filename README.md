@@ -8,7 +8,7 @@ This is the Newsman App Python API client for API version 1.2.
 We send newsletters on behalf of our customers.
 
 NEW: 
-- API is Python 3 compatible.
+- Code is Python 3 compatible.
 - API works only over SSL (secure connection)
 
 ## About Newsman API - version 1.2
