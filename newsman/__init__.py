@@ -13,7 +13,7 @@ class Newsman:
     """
     Creates a Newsman Client.
     """
-    def __init__(self, user_id, api_key, api_url = "https://ssl.newsman.ro/api"):
+    def __init__(self, user_id, api_key, api_url = "https://ssl.newsman.app/api"):
         self.user_id = user_id
         self.api_key = api_key
         self.api_url = api_url
