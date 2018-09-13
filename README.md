@@ -4,7 +4,7 @@ This is the Newsman App Python API client for API version 1.2.
 
 ## Newsman - Smart Email Service Provider
 
-[Newsman](http://www.newsmanapp.com "Smart Email Service Provider") is a Smart Email Service Provider. 
+[Newsman](https://www.newsman.app "Smart Email Service Provider") is a Smart Email Service Provider. 
 We send newsletters on behalf of our customers.
 
 NEW: 
@@ -15,9 +15,9 @@ NEW:
 
 Our current API version is 1.2. API documentation can be found here:
 
-* RO: http://kb.newsman.ro/api/
-* EN: http://kb.newsmanapp.com/api/
-* FR: http://kb.newsman.fr/api/
+* RO: https://kb.newsman.ro/api/
+* EN: https://kb.newsman.app/api/
+* FR: https://kb.newsman.fr/api/
  
 Our API requires an API KEY which you can generate in your Account and your Newsman user id.
 The API exposes XML RPC and REST interfaces.
